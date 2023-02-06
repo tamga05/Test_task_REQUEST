@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Myriad Pro Regular";
+    src: url("assets/fonts/Myriad_Pro_Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Myriad Pro SemiExt";
+    src: url("assets/fonts/Myriad_Pro_SemiExt.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Schwabacher";
+    src: url("assets/fonts/Schwabacher.woff2") format("woff2");
+}
+
+.container {
+    max-width: 1940px;
+    /*width: 100%;*/
+    padding: 0 10px;
+    margin: 0 auto;
+    background-color: #00aa4b;
+    min-height: 48px;
+}
+
+.nav {
+    padding: 17px 188px 15px 189px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+@media screen and (max-width: 1560px) {
+    .nav {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .nav {
+        flex-direction: column;
+        padding: 17px 15px 10px;
+        overflow-wrap: anywhere;
+    }
+}
+
+.nav_item {
+    text-decoration: none;
+    font-family: "Myriad Pro Regular", sans-serif;
+    font-size: 16px;
+    /*font-weight: normal;*/
+    /*font-stretch: normal;*/
+    /*font-style: normal;*/
+    /*line-height: normal;*/
+    /*letter-spacing: normal;*/
+    text-align: center;
+    color: #fff;
+}
