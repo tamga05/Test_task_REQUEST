@@ -14,9 +14,9 @@
 }
 
 .container {
-    max-width: 1940px;
+    max-width: 1920px;
     /*width: 100%;*/
-    padding: 0 10px;
+    /*padding: 0 10px;*/
     margin: 0 auto;
     background-color: #00aa4b;
     min-height: 48px;
@@ -49,11 +49,18 @@
     text-decoration: none;
     font-family: "Myriad Pro Regular", sans-serif;
     font-size: 16px;
-    /*font-weight: normal;*/
-    /*font-stretch: normal;*/
-    /*font-style: normal;*/
-    /*line-height: normal;*/
-    /*letter-spacing: normal;*/
     text-align: center;
     color: #fff;
+}
+
+.nav_item-mail {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav_item-phone {
+    display: flex;
+    align-items: center;
+    gap: 3px;
 }
