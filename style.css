@@ -8,11 +8,6 @@
     src: url("assets/fonts/Myriad_Pro_SemiExt.woff") format("woff");
 }
 
-@font-face {
-    font-family: "Schwabacher";
-    src: url("assets/fonts/Schwabacher.woff2") format("woff2");
-}
-
 .container {
     max-width: 1920px;
     /*width: 100%;*/
@@ -50,7 +45,7 @@
     font-family: "Myriad Pro Regular", sans-serif;
     font-size: 16px;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
 }
 
 .nav_item-mail {
@@ -63,4 +58,41 @@
     display: flex;
     align-items: center;
     gap: 3px;
+}
+
+.nav-restor::before {
+    content: "";
+    margin-right: 29px;
+    width: 1px;
+    height: 28px;
+    opacity: 0.25;
+    box-shadow: 1px 2px 7px 0 rgba(0, 0, 0, 0.4);
+    border: solid 1px #fff;
+    background-color: #d5bee7;
+}
+
+.nav-service::before{
+    content: "";
+    margin-right: 28px;
+    width: 1px;
+    height: 28px;
+    opacity: 0.25;
+    box-shadow: 1px 2px 7px 0 rgba(0, 0, 0, 0.4);
+    border: solid 1px #fff;
+    background-color: #d5bee7;
+}
+
+.nav-catalog {
+    padding: 9px 188px 11px 189px;
+    box-shadow: 4px 6px 18px 0 rgba(0, 0, 0, 0.11);
+    background-color: #ffffff;
+}
+
+.nav_catalog-item {
+    color: #343434;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
 }
