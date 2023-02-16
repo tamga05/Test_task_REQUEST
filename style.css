@@ -1,11 +1,26 @@
 @font-face {
     font-family: "Myriad Pro Regular";
-    src: url("assets/fonts/Myriad_Pro_Regular.woff") format("woff");
+    src: url("assets/fonts/MyriadPro-Regular.woff") format("woff");
 }
 
 @font-face {
-    font-family: "Myriad Pro SemiExt";
-    src: url("assets/fonts/Myriad_Pro_SemiExt.woff") format("woff");
+    font-family: "Myriad Pro LightSemiExt";
+    src: url("assets/fonts/MyriadPro-LightSemiExt.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Myriad Pro Semibold";
+    src: url("assets/fonts/MyriadPro-Semibold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Helvetica Neue Cyr Light";
+    src: url("assets/fonts/HelveticaNeueCyr-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "SFUID Light";
+    src: url("assets/fonts/SFUID-Light.woff") format("woff");
 }
 
 .container {
@@ -96,6 +111,8 @@
     background-color: rgb(35, 35, 35);
     box-shadow: 0 7px 24px 0 rgba(0, 0, 0, 0.49);
     border-radius: 50px;
+    font-family: "Myriad Pro Regular", sans-serif;
+    font-size: 16px;
     position: absolute;
     top: 52px;
     color: white;
